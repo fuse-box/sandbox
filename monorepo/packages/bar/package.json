@@ -1,6 +1,10 @@
 {
-  "name": "@org/bar",
-  "local:main": "src/index.ts",
-  "typings": "src/index.ts",
-  "version": "1.0.0"
+    "name": "@org/bar",
+    "version": "1.0.0",
+    "local:main": "src/index.ts",
+    "typings": "src/index.ts",
+    "module": "dist/esm/index.js",
+    "publishConfig": {
+        "access": "public"
+    }
 }
