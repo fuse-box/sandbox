@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Monorepo simple",
   "scripts": {
-    "start": "ts-node -T projects/main/fuse.ts",
-    "pub-now": "node ./scripts/publish",
-    "pub-test": "node ./scripts/publishTest",
-    "build": "node ./scripts/build && node ./scripts/syncPackages"
+    "start": "ts-node -T sample/main/fuse.ts"
   },
   "repository": {
     "type": "git",
