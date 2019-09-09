@@ -2,24 +2,28 @@
   "name": "monorepo-simple",
   "version": "1.0.0",
   "description": "Monorepo simple",
-  "main": "index.js",
   "scripts": {
-    "start": "ts-node -T packages/main/fuse.ts"
+    "start": "ts-node -T projects/main/fuse.ts",
+    "pub-now": "node ./scripts/publish",
+    "pub-test": "node ./scripts/publishTest",
+    "build": "node ./scripts/build && node ./scripts/syncPackages"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fuse-box-sandbox/monorepo-simple.git"
+    "url": "git+https://github.com/fuse-box/sandbox.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fuse-box-sandbox/monorepo-simple/issues"
+    "url": "https://github.com/fuse-box/sandbox/issues"
   },
-  "homepage": "https://github.com/fuse-box-sandbox/monorepo-simple#readme",
+  "homepage": "https://github.com/fuse-box/sandbox#readme",
   "devDependencies": {
-    "fuse-box": "^4.0.0-next.134",
-    "ts-node": "^8.3.0",
-    "tslib": "^1.10.0",
-    "typescript": "^3.6.2"
+    "fuse-box": "next",
+    "fuse-box-typechecker": "latest",
+    "prettier": "latest",
+    "ts-node": "latest",
+    "tslib": "latest",
+    "typescript": "latest"
   }
 }

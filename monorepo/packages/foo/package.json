@@ -1,5 +1,10 @@
 {
-  "name": "@org/foo",
-  "local:main": "src/index.ts",
-  "typings": "src/index.ts"
+    "name": "@org/foo",
+    "version": "1.0.0",
+    "local:main": "src/index.ts",
+    "typings": "src/index.ts",
+    "module": "dist/esm/index.js",
+    "publishConfig": {
+        "access": "public"
+    }
 }
