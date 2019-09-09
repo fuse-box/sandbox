@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "importHelpers": true,
+    "baseUrl": "src/",
+    "paths": {
+      "@org/*": ["../../*"]
+    }
+  },
+  "exclude": ["fuse.ts"]
+}

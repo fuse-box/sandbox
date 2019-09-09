@@ -1,0 +1,6 @@
+{
+  "name": "@org/bar",
+  "local:main": "src/index.ts",
+  "typings": "src/index.ts",
+  "version": "1.0.0"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "@org/foo",
+  "local:main": "src/index.ts",
+  "typings": "src/index.ts"
+}
