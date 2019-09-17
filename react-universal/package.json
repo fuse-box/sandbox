@@ -1,0 +1,22 @@
+{
+  "name": "react-universal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -T fuse.ts",
+    "preview": "ts-node -T fuse.ts preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "fuse-box": "^4.0.0-next.137",
+    "typescript": "^3.6.3"
+  }
+}
