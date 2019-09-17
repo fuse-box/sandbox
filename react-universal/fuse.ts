@@ -31,6 +31,7 @@ class Context {
 
       cache: {
         enabled: true,
+        FTL: false,
         root: ".cache/browser"
       },
       watch: {
