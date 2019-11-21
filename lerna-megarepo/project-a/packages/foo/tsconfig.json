@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.package.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@org/*": [
+        "../../../../project-a/packages/*",
+        "../../../../project-b/packages/*"
+      ]
+    }
+  },
+  "include": ["src", "typings"],
+  "exclude": ["node_modules"],
+  "references": [{ "path": "../nom/tsconfig.json" }]
+}

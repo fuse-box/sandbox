@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/bar" },
+    { "path": "packages/baz" }
+  ]
+}

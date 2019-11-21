@@ -1,0 +1,1 @@
+export const util = "bar utilities loaded correctly"

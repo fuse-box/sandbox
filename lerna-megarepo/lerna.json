@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "project-a",
+    "project-a/packages/*",
+    "project-b",
+    "project-b/packages/*",
+    "."
+  ],
+  "version": "0.0.0"
+}

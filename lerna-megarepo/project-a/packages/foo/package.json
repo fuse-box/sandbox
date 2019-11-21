@@ -1,0 +1,19 @@
+{
+  "name": "@org/foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "local:main": "src/index.ts",
+  "scripts": {
+    "build": "npm run build:tsc && npm run build:tscpaths",
+    "build:tsc": "../../node_modules/.bin/tsc --build",
+    "build:tscpaths": "../../node_modules/.bin/tscpaths -p tsconfig.json -s src -o dist"
+  },
+  "dependencies": {
+    "@org/nom": "^1.0.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.138"
+  }
+}

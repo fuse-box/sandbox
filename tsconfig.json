@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@org/*": [
+        "project-a/packages/*",
+        "project-b/packages/*"
+      ]
+    }
+  }
+}

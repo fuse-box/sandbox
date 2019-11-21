@@ -1,0 +1,1 @@
+export const util = "foo utilities loaded correctly"

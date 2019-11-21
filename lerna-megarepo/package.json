@@ -1,0 +1,11 @@
+{
+  "name": "@org/root",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "bootstrap": "npm i && ./node_modules/.bin/lerna bootstrap"
+  },
+  "dependencies": {
+    "lerna": "^3.16.4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@org/baz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "local:main": "src/index.ts",
+  "scripts": {
+    "build": "npm run build:tsc && npm run build:tscpaths",
+    "build:tsc": "../../node_modules/.bin/tsc --build",
+    "build:tscpaths": "../../node_modules/.bin/tscpaths -p tsconfig.json -s src -o dist",
+    "start": "node -r ts-node/register tools/fuse.ts"
+  },
+  "dependencies": {
+    "@org/bar": "^1.0.0"
+  }
+}
