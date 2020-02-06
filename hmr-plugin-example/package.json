@@ -1,0 +1,15 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "fuse-box": "4.0.0-alpha.302",
+    "node-sass": "^4.13.1"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "hmr-plugin-example",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
