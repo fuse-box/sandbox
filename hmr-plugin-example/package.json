@@ -3,7 +3,7 @@
   "description": "",
   "devDependencies": {
     "fuse-box": "4.0.0-alpha.302",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "license": "ISC",
   "main": "index.js",
